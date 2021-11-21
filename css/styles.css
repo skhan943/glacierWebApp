@@ -1,0 +1,49 @@
+body {
+    background-color: gray;
+    /* overflow: hidden; */
+}
+
+#main-container {
+    position: absolute; 
+    width: 400px; 
+    left: 50%; 
+    top: 0%; 
+    transform: translateX(-50%); 
+    height: 100vh;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title-container {
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+#center-container {
+    position: absolute; 
+    width: 400px; 
+    left: 50%; 
+    top: 50%; 
+    transform: translateX(-50%);
+    height: 100vh;
+    text-align: center;
+}
+
+.bottle {
+    width: 75px;
+    height: auto;
+}
+
+#topText{
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#back-link{
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#secondBody{
+    text-align: center;
+}
